@@ -1,17 +1,18 @@
 function guardar(){
-    let rp1,rp2,rp3
-    rp1 = document.getElementById("p1").value
-
-    //Guardar localmente 
-    localStorage.setItem("p1",rp1)
-    //Enviar al archivo respuesta.html
+    let p1,p2, p3
+    
+    p1 = document.getElementById("p1").value
+    console.log(p1)
+    localStorage.setItem("p1", p1)
     window.location = "respuesta.html"
 
-    rp2 = document.getElementById("p2").value
-    localStorage.setItem("p2",rp2)
+    p2 = document.getElementById("p2").value
+    console.log(p2)
+    localStorage.setItem("p2",p2)
     window.location = "respuesta.html"
 
-    rp3 = document.getElementById("p3").value
-    localStorage.setItem("p3",rp3)
+    p3 = document.getElementById("p3").value
+    console.log(p3)
+    localStorage.setItem("p3",p3)
     window.location = "respuesta.html"
 }
